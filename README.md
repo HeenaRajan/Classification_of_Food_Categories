@@ -6,3 +6,14 @@ You can download the dataset from here
 [Food-101](https://www.kaggle.com/dansbecker/food-101)
 ![](image/sample.png)
 
+## Task 1
+To train a linear SVM to perform classification on randomly 3 subsets of 10 and 2 subsets of
+30 classes by using the responses from the final fully connected layer as features from VGG-16 and ResNet-34 models. After training, the top 5 classes with highest classification accuracy and the 5 worst performing classes are reported.
+
+## Task 2
+Starting with the base VGG-16, fine tune the network to classify the same 10 and 30 splits from the previous part.
+
+## Task 3
+Perform label smoothing regularization on fine-tuned VGG-16 and ResNet-34 models.
+ 
+
